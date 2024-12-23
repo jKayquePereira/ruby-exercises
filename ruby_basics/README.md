@@ -6,11 +6,11 @@ These exercises are designed to complement the [Ruby Basic lessons](https://www.
 
 ### Usage
 
-1. First change directory into the lesson directory, for example `cd 1_data_types`.
-2. Run the tests for an exercise file, for example `rspec spec/numbers_exercises_spec.rb`. The first test will fail and the rest will be skipped.
-3. Open that corresponding exercise file in your text editor, in this case the `exercises/numbers_exercises.rb` file.
-4. Write the code to get the failing test to pass in the exercise file and run the tests again to verify it passes.
-5. Each `exercises` folder has a corresponding `spec` folder with matching test files. For instance, you can find the tests for `exercises/numbers_exercises.rb` in `spec/numbers_exercises_spec.rb`. Find and open the matching spec file.
+1. Primeiro mude o diretório para o diretório da lição, por exemplo `cd 1_data_types`.
+2. Execute os testes para um arquivo de exercício, por exemplo `rspec spec/numbers_exercises_spec.rb`. O primeiro teste falhará e o restante será ignorado.
+3. Abra o arquivo de exercício correspondente em seu editor de texto, neste caso o arquivo `exercises/numbers_exercises.rb`.
+4. Escreva o código para fazer com que o teste com falha seja aprovado no arquivo de exercício e execute os testes novamente para verificar se ele foi aprovado.
+5. Cada pasta `exercises` tem uma pasta `spec` correspondente pasta com arquivos de teste correspondentes. Por exemplo, você pode encontrar os testes para`exercises/numbers_exercises.rb` em `spec/numbers_exercises_spec.rb`. Encontre e abra o arquivo de especificações correspondente.
 6. Unskip the next test by removing the `x` from `xit`.
 7. Run your tests again `rspec spec/numbers_exercises_spec.rb` the second test should now be failing.
 8. Repeat the steps from step 2 until no more tests are skipped and all are passing.
